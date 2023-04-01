@@ -1,0 +1,115 @@
+body{
+    background-image: linear-gradient(to right, rgb(28,63,111) , rgb(106,20,42));
+    background-repeat:no-repeat; 
+    color: white;
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 30px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(111,160,211);
+    transition: 0.3s all;
+}
+
+#compre{
+    border: 2px solid rgb(111,160,211);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#compre:hover{
+    background: rgb(111,160,211);
+    color: rgb(106,20,42);
+}
+
+h1{
+    font-weight: 200;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    
+}
+
+h2{
+    font-size: 56px;
+    line-height: 90px;
+    font-family: poppinsmedium;
+    
+}
+
+span{
+    color: rgb(207, 21, 68);
+    
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+}
+
+img{
+    width: 600px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: rgb(106,20,42);
+    color: white;
+    font-weight: bold;
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+footer{
+    margin-top: 165px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
